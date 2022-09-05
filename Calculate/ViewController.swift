@@ -88,6 +88,7 @@ class ViewController: UIViewController
         
         displayString.append(eight)
         displayLabel.text = displayString
+    
     }
     @IBAction func nineButtonTapped(_ sender: UIButton)
     {
@@ -103,11 +104,6 @@ class ViewController: UIViewController
         displayString = "0"
         displayLabel.text = displayString
     }
-    @IBAction func operatorClicked(_ sender: UIButton) {
-    }
-    
-    
-    
-
+   
 }
 
